@@ -9,8 +9,7 @@ const calcularAreaCuadrado = () => {
     //Imprimimos en pantalla el resultado de la operación
     document.getElementById("resultado").innerHTML = `
     <h5>El resultado del área del cuadrado es: ${areaCuadrado}</h5>
-    `;
-  };
+    `;};
   
   //Función para calcular el área de un rectángulo
   const calcularAreaRectangulo = () => {
@@ -26,5 +25,4 @@ const calcularAreaCuadrado = () => {
     //Necesito llevar el resultado al HTML
     document.getElementById("resultadoRectangulo").innerHTML = `
     <h5>El resultado del área del rectángulo es: ${areaRectangulo}</h5>
-    `;
-  
+    `}
